@@ -1,0 +1,132 @@
+// table {
+//     width: 100%;
+//     border-collapse: collapse;
+//   }
+  
+//   table, td, th {
+//     border: 1px solid black;
+//     padding: 5px;
+//   }
+  
+//   th {text-align: left;}
+
+@import 'variables';
+
+body {
+    background-color: $primcolor;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    header {
+        position: relative;
+        background-color: $seccolor;
+        width: 95%;
+        height: 95%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        nav {
+            height: 15%;
+            width: 90%;
+            margin: auto;
+            display: flex;
+            justify-content:space-between;
+            align-items: center;
+            div { 
+                img {
+                    max-width: 100%;
+                    max-height: 100%;
+                }
+            }
+            #btn {
+                color: black;
+                font-size: 1.875em;
+                text-decoration: none;
+                border: solid;
+                border-width: 0.5px;
+                padding-inline: 1.875em;
+                padding-block: 0.5em;
+                border-radius: 0.5em;
+            }
+            ul {
+                width: 70%;
+                display: flex;
+                list-style: none;
+                li {
+                    width: 25%;
+                    a {
+                        text-decoration: none;
+                        color: black;
+                        font-size: 1.875em;
+                    }
+                    a:hover { 
+                        color: $hovercolor;
+                        cursor: url('./assets/hand.png'), auto;
+                    }
+                }
+            }
+        }
+
+        section {
+            height: 80%;
+            width: 100%;
+            background-image: url('./assets/right.png');
+            background-size: initial;
+            background-repeat: no-repeat;
+            background-position: right bottom;
+            display: flex;
+            article {
+                margin-inline: 8em;
+                h2 {
+                    font-size: 2.5em;
+                }
+                h1 {
+                    font-size: 4.5em;
+                    margin-block: 0.5em;
+                }
+                p {
+                    font-size: 1.5em;
+                    width: 70%;
+                }
+                form {
+                    width: 50%;
+                    select {
+                        width: 100%;
+                        font-size: 1.5em;
+                        margin-bottom: 1.875em;
+                        padding: 0.65em;
+                        border-radius: 0.5em;
+                        border-width: 0.5px;
+                        border-color: $hovercolor;
+                    }
+                }
+                div {
+                    margin-bottom: 1.5em;
+                    a {
+                        color: $hovercolor;
+                        font-size: 1.5em;
+                    }
+                    a:hover { 
+                        color: $hovercolor;
+                        cursor: url('./assets/hand.png'), auto;
+                    }
+                }
+                span {
+                    font-size: 1.5em;
+                }
+            }
+        }
+
+        #palm {
+            width: initial;
+            position: absolute;
+            bottom: -5%;
+            left: -3%;
+        }
+
+
+
+       
+    }
+    
+}

@@ -1,0 +1,109 @@
+body {
+  background-color: #F6F3D8;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+body header {
+  position: relative;
+  background-color: #FFFEF6;
+  width: 95%;
+  height: 95%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+body header nav {
+  height: 15%;
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+body header nav div img {
+  max-width: 100%;
+  max-height: 100%;
+}
+body header nav #btn {
+  color: black;
+  font-size: 1.875em;
+  text-decoration: none;
+  border: solid;
+  border-width: 0.5px;
+  padding-inline: 1.875em;
+  padding-block: 0.5em;
+  border-radius: 0.5em;
+}
+body header nav ul {
+  width: 70%;
+  display: flex;
+  list-style: none;
+}
+body header nav ul li {
+  width: 25%;
+}
+body header nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.875em;
+}
+body header nav ul li a:hover {
+  color: #01D98B;
+  cursor: url("./assets/hand.png"), auto;
+}
+body header section {
+  height: 80%;
+  width: 100%;
+  background-image: url("./assets/right.png");
+  background-size: initial;
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  display: flex;
+}
+body header section article {
+  margin-inline: 8em;
+}
+body header section article h2 {
+  font-size: 2.5em;
+}
+body header section article h1 {
+  font-size: 4.5em;
+  margin-block: 0.5em;
+}
+body header section article p {
+  font-size: 1.5em;
+  width: 70%;
+}
+body header section article form {
+  width: 50%;
+}
+body header section article form select {
+  width: 100%;
+  font-size: 1.5em;
+  margin-bottom: 1.875em;
+  padding: 0.65em;
+  border-radius: 0.5em;
+  border-width: 0.5px;
+  border-color: #01D98B;
+}
+body header section article div {
+  margin-bottom: 1.5em;
+}
+body header section article div a {
+  color: #01D98B;
+  font-size: 1.5em;
+}
+body header section article div a:hover {
+  color: #01D98B;
+  cursor: url("./assets/hand.png"), auto;
+}
+body header section article span {
+  font-size: 1.5em;
+}
+body header #palm {
+  width: initial;
+  position: absolute;
+  bottom: -5%;
+  left: -3%;
+}/*# sourceMappingURL=style.css.map */
